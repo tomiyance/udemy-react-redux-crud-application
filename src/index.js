@@ -10,7 +10,6 @@ import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 const store = createStore(reducer)
-Provider.store = store
 
 ReactDOM.render(
   <React.StrictMode>
