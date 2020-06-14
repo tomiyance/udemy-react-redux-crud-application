@@ -15,9 +15,6 @@ import ContentAdd from 'material-ui/svg-icons/content/add'
 
 import { readEvents } from '../actions'
 
-const WrappedIcon = props => <TableBody {...props} />;
-WrappedIcon.muiName = 'TableBody';
-
 class EventsIndex extends Component {
   componentDidMount() {
     this.props.readEvents()
